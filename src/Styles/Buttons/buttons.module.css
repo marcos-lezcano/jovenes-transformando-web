@@ -1,0 +1,58 @@
+button{
+  width: fit-content;
+  transition: 0.3s;
+  cursor: pointer;
+  font-family: jost
+}
+
+.pink{
+  background-color: #FE007C;
+  border-radius: 50px;
+  padding: 3px 20px 3px 20px;
+  border: 2px solid #FE007C;
+  color: #fff;
+}
+
+.pink:hover{
+  background-color: #fff;
+  color: #FE007C
+}
+
+.blue{
+  background-color: #00A1F1;
+  border: 2px solid #00A1F1;
+  border-radius: 50px;
+  padding: 3px 20px 3px 20px;
+  color: #fff;
+}
+
+.blue:hover{
+  background-color: #fff;
+  color: #00A1F1
+}
+
+.red{
+  background-color: #D93C00;
+  border: 2px solid #D93C00;
+  border-radius: 50px;
+  padding: 3px 20px 3px 20px;
+  color: #fff
+}
+
+.red:hover{
+  background-color: #fff;
+  color: #D93C00
+}
+
+.yellow{
+  background-color: #FABC05;
+  border: 2px solid #FABC05;
+  border-radius: 50px;
+  padding: 3px 20px 3px 20px;
+  color: #fff
+}
+
+.yellow:hover{
+  background-color: #fff;
+  color: #FABC05
+}
