@@ -1,0 +1,24 @@
+.news_container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 700px;
+  margin-top: 4rem;
+  margin-bottom: 4rem
+}
+
+.news_container_cards{
+  display: flex;
+  margin-top: 2rem;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.news_container_buttons{
+  display: flex;
+  justify-content: space-around;
+  width: 15rem;
+  font-size: 12px;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
