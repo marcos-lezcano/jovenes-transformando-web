@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className={Style.sections}>
         <p>Noticias</p>
         <p>Quiénes Somos</p>
-        <p><ButtonJT color='FE007C' text='SUMATE' size='18px'/></p>
+        <p><ButtonJT color='FE007C' text='SUMATE' size='15px'/></p>
       </div>
     </nav>
   )
