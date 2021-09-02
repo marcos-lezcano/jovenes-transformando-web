@@ -1,0 +1,6 @@
+.referents_container{
+  background-color: #DCDCDC;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
