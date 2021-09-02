@@ -1,0 +1,45 @@
+.project_card_container{
+  margin-bottom: 2rem;
+  height: 12rem;
+  width: 100%;
+  max-width: 700px;
+}
+
+.project_img{
+  /*
+  CON COLORSITOS
+  background-image:
+  linear-gradient(
+    rgba(0, 161, 241, 0.5),
+    rgba(254, 0, 124, 0.5)
+  ),
+  url(https://www.eldiariodecarlospaz.com.ar/u/fotografias/m/2020/2/18/f608x342-115971_145694_31.jpg); */
+
+  background-image:
+  linear-gradient(
+    rgba(0, 0, 0, 0.3),
+    rgba(0, 0, 0, 0.3)
+  ),
+  url(https://www.eldiariodecarlospaz.com.ar/u/fotografias/m/2020/2/18/f608x342-115971_145694_31.jpg);
+background-position: center;
+  height: 100%;
+  width: 100%;
+  background-size: cover
+}
+
+.project_front{
+  position: absolute;
+  color: #fff;
+  margin-left: 2rem;
+  margin-top: 1.5rem;
+  font-weight: bolder;
+  font-size: 40px;
+  /* border: 2px solid red; */
+  width: 100%;
+  max-width: 700px;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
