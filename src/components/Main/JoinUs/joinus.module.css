@@ -1,0 +1,29 @@
+.join_us_container{
+  width: 700px;
+  height: 500px;
+  overflow: hidden;
+  margin: 5rem
+}
+
+.join_us_container img{
+  width: 700px;
+}
+
+.join_us_title{
+  position: absolute;
+  font-size: 40px;
+  width: 700px;
+  height: 500px;
+  text-align:center;
+  font-weight: bolder;
+  color: #fff;
+  overflow: hidden;
+  text-shadow: 5px 5px 20px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around
+}
+
+.join_us_title p{
+  margin-bottom: 10rem
+}
