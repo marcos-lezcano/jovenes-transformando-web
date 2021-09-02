@@ -3,7 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: Poppins
+  font-family: Poppins;
+  margin: 2rem
 }
 
 .title{
@@ -12,10 +13,12 @@
   width: 100%;
   font-weight: bold;
   font-size: 40px;
-  margin: 2rem 0 2rem 0
+  margin-bottom: 2rem;
 }
 
 .description{
   text-align: center;
-  width: 50rem
+  width: 100%;
+  max-width: 50rem;
+  font-size: 25px;
 }
