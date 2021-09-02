@@ -1,7 +1,7 @@
 import React from "react";
 import Style from "./buttons.module.css";
 
-const ButtonJT = ({ color, size, text }) => {
+const ButtonJT = ({ color, size, text, bolder }) => {
   // COLORES:
   // rosado: FE007C
   // azul: 00A1F1
@@ -21,7 +21,7 @@ const ButtonJT = ({ color, size, text }) => {
           : color === "FABC05"
           ? Style.yellow
           : null
-      } style={{fontSize:size}}>{text}</button>
+      } style={bolder ? {fontSize:size, fontWeight:'bolder'} : {fontSize:size}}>{text}</button>
     </div>
   );
 };
