@@ -6,7 +6,7 @@ const Description = (props) => {
     <div className={Style.description_container}>
       <div className={Style.title}>
         <p style={{ color: "#00A1F1" }}>Somos&nbsp;</p>
-        <p>la &nbsp;</p>
+        <p>la&nbsp;</p>
         <p style={{ color: "#FE007C" }}>fuerza&nbsp;</p>
         <p>de&nbsp;la&nbsp;</p>
         <p style={{ color: "#D93C00" }}>juventud&nbsp;</p>

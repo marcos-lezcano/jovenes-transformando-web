@@ -27,3 +27,11 @@
 .join_us_title p{
   margin-bottom: 10rem
 }
+.buttons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.alt{
+  margin-bottom: 1rem
+}
